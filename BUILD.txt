@@ -1,0 +1,39 @@
+BUILD.txt – Build Instructions for MyLang (Stages 1–4)
+
+Target Platform:
+
+• Windows 10+ (Azure Lab VM or local machine)
+• Python 3.8 or newer (pre-installed on your VM)
+
+Dependencies:
+
+• No external libraries required
+• Uses only built-in Python modules
+
+How to Build and Run:
+
+1. Open Command Prompt or PowerShell.
+2. Navigate to the folder containing the files.
+   Example:
+   cd C:\Users\YourName\Documents\my_lang
+
+3. Run the interpreter:
+   python main.py
+
+You will enter the MyLang REPL shell:
+>>> x = 10
+>>> print x
+10
+
+Exit:
+
+Type "exit" or "quit" to exit the interpreter.
+
+Included:
+
+• mytoken.py       – Token definitions
+• lexer.py         – Tokenizer
+• interpreter.py   – Expression evaluator
+• main.py          – REPL entry point
+• README.txt       – Feature guide
+• *.mylang         – Sample source programs for Stages 1–4
